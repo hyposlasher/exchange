@@ -1,0 +1,18 @@
+.exchange-widjet-container {
+	width: 300px;
+	margin: 40px auto;
+}
+
+.wallet {
+	margin-bottom: 10px;
+}
+
+.input {
+	width: 70%;
+	display: inline-block;
+}
+
+.select {
+	width: 30%;
+	display: inline-block;
+}
