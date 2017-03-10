@@ -74,7 +74,7 @@ export function fetchLatestRates() {
 		dispatch({
 			type: FETCH_EXCHANGE_START,
 		});
-		axios('http://api.fixer.io/latest?symbols=USD,GBP')
+		axios('https://api.fixer.io/latest?symbols=USD,GBP')
 			.then(response => {
 				dispatch({
 					type: FETCH_EXCHANGE_SUCCESS,
